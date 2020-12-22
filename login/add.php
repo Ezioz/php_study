@@ -1,5 +1,7 @@
 <?php 
 
+//首先设置了
+
 header('Content-type: text/html; charset=utf-8');
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	if (empty($_POST['username'])) {
@@ -23,6 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	}
 
 }
+
 
 $mysqli = new mysqli('localhost', 'root', 'root', 'student');
 $result = $mysqli -> query("select password from user where username="."'$username'");
