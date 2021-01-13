@@ -36,7 +36,7 @@ function files($file, $ext, $allowEXT, $maxfile, $size)
 		exit('文件不是以POST方式提交');
 	}
 }
-
+111
 
 
  ?>
