@@ -20,7 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		$repassword = trim($_POST['repassword']);
 	}
 
-	if ($password != $repassword) {utf
+	if ($password != $repassword) {
 		echo "<script>alert('两次输入的密码不一致，请重新输入'); locatioon.href='login.html';</script>";
 	}
 
