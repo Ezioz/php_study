@@ -30,6 +30,7 @@ if (!$retval) {
 	}
 }
 echo '</table>';
+// 释放游标内存
 mysqli_free_result($retval);
 
 mysqli_close($conn);
